@@ -8,10 +8,10 @@ This project contains an example implementation and infrastructure code to both 
 ## Disclaimer
 This is a reference implementation, and not the only definitive way to consume Amazon Marketing Stream data. Note that this implementation is subject to change and future releases may not be backwards compatible.
 
-## SQS Solution architecture
+## SQS Solution Architecture
 ![SQS Architecture diagram](architecture.png)
 
-## Firehose Solution architecture
+## Firehose Solution Architecture
 ![Firehose Architecture diagram](architecture_firehose.png)
 
 This application, developed using Python and the AWS Cloud Development Kit (CDK), supports two deployment options: one for SQS and another for the new destination Firehose. However, SQS is the default deployment.
